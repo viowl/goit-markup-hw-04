@@ -79,22 +79,6 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.overlay {
-  max-width: 1440px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(
-      to right,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .brand-logo {
   color: var(--brand-color);
 }
@@ -201,6 +185,22 @@ img {
 .button-hero:hover,
 .button-hero:focus {
   background-color: #404bbf;
+}
+
+.overlay {
+  max-width: 1440px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 /* -----------------SECTION METHODS */
 
