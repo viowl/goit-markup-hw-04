@@ -236,6 +236,36 @@ img {
   width: 264px;
 }
 
+.method-item::before {
+  display: inline-block;
+  content: "";
+  width: 264px;
+  height: 112px;
+  /* background-image: url(../images/Feature\ 1.png); */
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-position: central;
+  background-color:var(--light-color)
+  /* outline: 2px solid tomato; */
+
+}
+
+.item-antenna::before {
+  background-image: url(../images/Feature\ 1.png);
+}
+
+.item-cloc::before {
+  background-image: url(../images/Feature\ 2.png);
+}
+
+.item-computer::before {
+  background-image: url(../images/Feature\ 3.png);
+}
+
+
+.item-spaceman::before {
+  background-image: url(../images/Feature\ 4.png);
+}
 /* ---------------- SECTION GALLERY */
 
 .gallery-title {
