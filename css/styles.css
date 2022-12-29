@@ -236,34 +236,34 @@ img {
   width: 264px;
 }
 
-.method-item::before {
+/* .method-item::before {
   display: inline-block;
   content: "";
   width: 264px;
   height: 112px;
   /* background-image: url(../images/Feature\ 1.png); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   /* background-size: contain; */
-  background-position: central;
-  background-color: var(--light-color);
+  /* background-position: central;
+  background-color: var(--light-color); */
   /* outline: 2px solid tomato; */
-}
+/* } */
 
-.item-antenna::before {
+/* .item-antenna::before {
   background-image: url(../images/Feature\ 1.png);
-}
+} */
 
-.item-cloc::before {
+/* .item-cloc::before {
   background-image: url(../images/Feature\ 2.png);
-}
+} */
 
-.item-computer::before {
+/* .item-computer::before {
   background-image: url(../images/Feature\ 3.png);
-}
+} */
 
-.item-spaceman::before {
+/* .item-spaceman::before {
   background-image: url(../images/Feature\ 4.png);
-}
+}  */
 /* ---------------- SECTION GALLERY */
 
 .gallery-title {
@@ -342,14 +342,6 @@ img {
   text-align: center;
 }
 
-.customers-title::after {
-  content: "";
-  display: inline-block;
-  background-image: url(../images/Customers\ logo.png);
-  width: 1128px;
-  height: 88px;
-  
-}
 
 /*-------------- footer */
 
