@@ -7,7 +7,7 @@
   --accent-color: #e7e9fc;
   --light-color: #f4f4fd;
   --white-color: #ffffff;
-  --press-color: #4d5ae5;
+  --press-color: #404bbf;
 }
 
 body {
@@ -336,12 +336,16 @@ img {
   width: 40px;
   height: 40px;
 }
+.team-icon-item:hover,
+.team-icon-item:focus {
+  background-color: var(--press-color);
+}
 
 .center {
   justify-content: center;
 }
 
-.social-team-list{
+.social-team-list {
   margin-top: 8px;
 }
 
@@ -369,6 +373,21 @@ img {
 .customers-item {
   border: 1px solid var(--subtle-color);
   border-radius: 4px;
+  background-color: var(--white-color);
+}
+
+.customers-item:hover,
+.customers-item:focus {
+  border: 1px solid var(--press-color);
+}
+.customers-icon {
+  fill: var(--subtle-color);
+ 
+}
+
+.customers-icon:hover,
+.customers-icon:focus {
+  fill: var(--press-color);
 }
 
 /*-------------- footer */
