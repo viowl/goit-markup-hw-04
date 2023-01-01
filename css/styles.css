@@ -382,7 +382,6 @@ img {
 }
 .customers-icon {
   fill: var(--subtle-color);
- 
 }
 
 .customers-icon:hover,
@@ -426,8 +425,6 @@ img {
   margin-bottom: 16px;
 }
 
-.footer-item {
-}
 .footer-right {
   margin-left: 120px;
   width: 208px;
@@ -444,6 +441,12 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
+
+.footer-link-icon:hover,
+.footer-link-icon:focus {
+  background-color:var(--success-color)
+}
+
 .footer-icon {
   margin-left: 8px;
   margin-top: 8px;
