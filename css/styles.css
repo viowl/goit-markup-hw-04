@@ -330,7 +330,7 @@ img {
   padding-bottom: 32px;
 }
 
-.team-icon-item {
+.team-link-icon {
   background-color: var(--brand-color);
   border-radius: 50%;
   width: 40px;
@@ -341,8 +341,8 @@ img {
   justify-content: center;
 }
 
-.team-icon-item:hover,
-.team-icon-item:focus {
+.team-link-icon:hover,
+.team-link-icon:focus {
   background-color: var(--press-color);
 }
 
