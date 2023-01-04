@@ -244,6 +244,7 @@ img {
   align-content: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 8px;
 }
 /* .method-item::before {
   display: inline-block;
@@ -340,6 +341,9 @@ img {
 }
 
 .team-link-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--brand-color);
   border-radius: 50%;
   width: 40px;
@@ -357,12 +361,15 @@ img {
 
 .social-team-list {
   margin-top: 8px;
+  justify-content: center;
+  display: flex;
+  gap: 24px;
 }
 
-.team-icon {
+/* .team-icon {
   margin-top: 12px;
   margin-left: 12px;
-}
+} */
 
 /* -----------------------CUSTOMERS */
 .customers {
@@ -457,10 +464,13 @@ img {
 }
 
 .footer-right-list {
-  gap: 8px;
+  gap: 16px;
 }
 
 .footer-link-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -472,10 +482,10 @@ img {
   background-color: var(--success-color);
 }
 
-.footer-icon {
+/* .footer-icon {
   margin-left: 8px;
   margin-top: 8px;
-}
+} */
 
 /* ----------------------portfolio page  */
 .button-filter {
